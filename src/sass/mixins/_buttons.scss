@@ -1,0 +1,33 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    background-color: $main-color;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: 500ms all ease;
+    &:hover {
+        color: black;
+        background-color: #fff;
+        transition: 500ms all linear;
+    }
+    &_consult {
+        width: 300px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    &_form {
+        width: 305px;
+        height: 55px;
+        border: none;
+        font-weight: 500;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,22 @@
+// IMPORT LIBRARIES
+@import 'libs/bootstrap-grid';
+@import 'libs/bootstrap-reboot';
+
+body,h1,h2,h3,h4,h5,h6,ul,ol,p {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+}
+
+// IMPORT OWN CODE
+@import 'mixins/variables';
+@import 'mixins/buttons';
+@import 'blocks/form';
+@import 'blocks/header';
+@import 'blocks/main-section.scss';
+@import 'blocks/advantages-section';
+@import 'blocks/consultation-section';
