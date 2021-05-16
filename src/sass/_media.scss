@@ -1,0 +1,241 @@
+@media  screen and (max-width: 1200px) {
+    .advantages .container {
+        max-width: none;
+    }
+    .consultation {
+        text-align: center;
+        form {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media  screen and (max-width: 991px) {
+    .advantages__item {
+        p {
+            font-size: 14px;
+        }
+    }
+    .slick-next {
+        bottom: -70px;
+        right: 25%;
+        top: auto;
+        transform: translate(50% 0%);
+    }
+    .slick-prev {
+        bottom: -70px;
+        left: 25%;
+        top: auto;
+    }
+    .slider-section__wrapper {
+        width: 500px;
+    }
+
+    .slider-section__image {
+        width: 100%;
+    }
+
+    .reviews__descr {
+        width: 90%;
+        &text {
+            font-size: 14px;
+        }
+    }
+}
+
+@media  screen and (max-width: 776px) {
+    .header__descr {
+        display: none;
+    }
+    .main__wrapper {
+        align-items: center;
+    }
+    .header__callme {
+        transform: translateY(-8px);
+    }
+    .header__wrapper {
+        justify-content: space-evenly;
+    }
+    .advantages__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages__item img {
+        margin-bottom: 10px;
+    }
+
+    .advantages__item h5 {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    .advantages__title {
+        margin-bottom: 35px;
+    }
+
+    .advantages__item {
+        margin: 15px auto;
+        width: 90%;
+    }
+
+    .advantages {
+        padding: 40px 0px;
+    }
+
+    .catalog__tabswrapper {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .catalog__tab {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .catalog-item {
+        width: 250px;
+    }
+
+    .catalog .container {
+        max-width: none;
+        padding: 0;
+    }
+
+    .button_buy {
+        width: 110px;
+    }
+
+    .catalog-item__backcontent ul li {
+        margin: 5px 0px;
+    }
+
+    .footer__panel {
+        width: 380px;
+        padding: 30px;
+        height: 240px;
+    }
+
+    .reviews__title {
+        margin-bottom: 25px;
+    }
+}
+
+@media  screen and (max-width: 575px) {
+    .header__wrapper {
+        flex-direction: column;
+        align-items: center;
+        .header__logo {
+            display: block;
+            margin: 0px auto 10px auto;
+        }
+    }
+
+    .header__callme {
+        width: 100%;
+        height: 80px;
+        a.button {
+            width: 70%;
+        }
+        .header__phonelink {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .main__title {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main__subtitle {
+        text-align: center;
+    }
+
+    .main__iconswrapper {
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    .main {
+        background-position: 20% 100%;
+    }
+
+    .consultation {
+        padding: 20px 0px;
+        height: 500px;
+        &__title {
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+        &__subtitle {
+            display: none;
+        }
+
+        .form {
+            width: 90%;
+            .button_form {
+                width: 100%;
+            }
+        }
+    }
+
+    .slider-section__wrapper {
+        width: 90%;
+    }
+
+    .slider-section {
+        padding: 30px 0px 70px 0px !important;
+        margin-bottom: 20px;
+    }
+
+    .slick-next {
+        right: 10%;
+    }
+
+    .slick-prev {
+        left: 10%;
+    }
+    .catalog-item {
+        width: 85%;
+    }
+
+    .reviews__title {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .reviews__item {
+        flex-direction: column;
+        .reviews__image {
+            margin-right: 0;
+        }
+        .reviews__descr {
+            text-align: center;
+        }
+    }
+
+    .reviews__descrtitle {
+        font-size: 22px;
+        margin: 5px 0px;
+    }
+
+    .reviews__descrtext {
+        font-size: 13px;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    .footer__panel {
+        width: 100%;
+        height: 280px;
+    }
+
+    .catalog__content {
+        margin-top: 20px;
+    }
+}

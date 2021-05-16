@@ -1,0 +1,41 @@
+.slider-section {
+    padding: 80px 0px;
+    &__wrapper {
+        margin: 0 auto;
+        position: relative;
+        width: 750px;
+    }
+}
+
+.slick {
+    &-prev {
+        position: absolute;
+        background: none;
+        border: none;
+        outline: 0;
+        z-index: 100;
+        top: 50%;
+        left: -66px;
+        transform: translateY(-50%);
+        &:active, &:focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+    }
+
+    &-next {
+        position: absolute;
+        background: none;
+        border: none;
+        outline: 0;
+        outline-offset: 0;
+        z-index: 100;
+        top: 50%;
+        right: -66px;
+        transform: translateY(-50%);
+        &:active, &:focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+    }
+}

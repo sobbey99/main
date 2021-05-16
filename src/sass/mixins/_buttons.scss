@@ -30,4 +30,14 @@
         font-weight: 500;
         font-size: 16px;
     }
+    &_buy {
+        width: 135px;
+        height: 45px;
+        font-weight: 500;
+        font-size: 14px;
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
 }

@@ -1,8 +1,9 @@
 // IMPORT LIBRARIES
 @import 'libs/bootstrap-grid';
 @import 'libs/bootstrap-reboot';
+@import 'libs/slick';
 
-body,h1,h2,h3,h4,h5,h6,ul,ol,p {
+body,h1,h2,h3,h4,h5,h6,ul,ol,p,address {
     margin: 0;
     padding: 0;
 }
@@ -20,3 +21,8 @@ body,h1,h2,h3,h4,h5,h6,ul,ol,p {
 @import 'blocks/main-section.scss';
 @import 'blocks/advantages-section';
 @import 'blocks/consultation-section';
+@import 'blocks/slider-section';
+@import 'blocks/catalog-section';
+@import 'blocks/reviews-section';
+@import 'blocks/footer-section';
+@import 'media';
