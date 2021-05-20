@@ -1,8 +1,8 @@
 <?php 
 
-$username = $_POST['name'];
-$usernumber = $_POST['phone'];
-$useremail = $_POST['email'];
+$name = $_POST['username'];
+$phone = $_POST['usernumber'];
+$email = $_POST['useremail'];
 
 require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;

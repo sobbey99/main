@@ -2,7 +2,7 @@
 
 $name = $_POST['username'];
 $phone = $_POST['usernumber'];
-remail = $_POST['useremail'];
+$email = $_POST['useremail'];
 
 require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
