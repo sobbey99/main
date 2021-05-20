@@ -238,4 +238,19 @@
     .catalog__content {
         margin-top: 20px;
     }
+    .modal-consultation {
+        width: 80%;
+        padding: 35px 20px 40px 20px;
+        &__close {
+            right: 15px;
+            top: 5px;
+        }
+        form.form {
+            width: 100%;
+            button.button_form {
+                width: 100%;
+            }
+        }
+    }
+    
 }
