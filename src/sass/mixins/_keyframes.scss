@@ -1,0 +1,34 @@
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+
+@keyframes pulse {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.advantages__wrapper .advantages__item:nth-child(1) img, .advantages__wrapper .advantages__item:nth-child(3) img {
+    animation: rotation 1400ms ease-in 1s infinite normal;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+
+.advantages__wrapper .advantages__item:nth-child(2) img {
+    animation: pulse 500ms ease-in 1s infinite alternate;
+    &:hover {
+        animation-play-state: paused;
+    }
+}

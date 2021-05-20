@@ -2,6 +2,7 @@
 @import 'libs/bootstrap-grid';
 @import 'libs/bootstrap-reboot';
 @import 'libs/slick';
+@import 'libs/animate';
 
 body,h1,h2,h3,h4,h5,h6,ul,ol,p,address {
     margin: 0;
@@ -13,7 +14,10 @@ body,h1,h2,h3,h4,h5,h6,ul,ol,p,address {
     font-family: 'MuseoModerno', cursive;
 }
 
+
+
 // IMPORT OWN CODE
+@import 'mixins/keyframes';
 @import 'mixins/variables';
 @import 'mixins/buttons';
 @import 'blocks/form';

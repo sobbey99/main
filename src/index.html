@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-   <section class="main">
-    <header class="header">
+   <section class="main" id="main">
+    <header class="header animate__flipInX animate__animated wow" data-wow-delay="800ms">
         <div class="container">
           <div class="header__wrapper">
               <div class="header__logo">
@@ -35,33 +35,33 @@
 
       <div class="container">
         <div class="main__wrapper">
-            <h1 class="main__title">
+            <h1 class="main__title animate__animated animate__fadeInLeft wow">
               Подбор пульсометра
             </h1>
-            <h3 class="main__subtitle">
+            <h3 class="main__subtitle animate__animated animate__fadeInRight wow">
               с учётом Вашего уровня подготовки
             </h3>
 
             <div class="main__iconswrapper">
-                <div class="main__iconitem">
+                <div class="main__iconitem animate__animated animate__fadeInUp wow" data-wow-delay="600ms">
                     <img src="icons/mainicon1.png" alt="">
                     <p>Время подбора:<br>10 минут</p>
                 </div>
 
-                <div class="main__iconitem">
+                <div class="main__iconitem animate__animated animate__fadeInUp wow" data-wow-delay="900ms">
                     <img src="icons/mainicon2.png" alt="">
                     <p>Бесплатная<br>доставка</p>
                 </div>
 
-                <div class="main__iconitem">
+                <div class="main__iconitem animate__animated animate__fadeInUp wow" data-wow-delay="110ms">
                     <img src="icons/mainicon3.png" alt="">
                     <p>Ответим<br>на все вопросы</p>
                 </div>
             </div>
 
-            <a data-modal="consultation" href="#" class="button button_consult">заказать кОНСУЛЬТАЦИЮ</a>
+            <a data-modal="consultation" href="#" class="button button_consult animate__animated animate__jackInTheBox wow" data-wow-delay="1800ms">заказать кОНСУЛЬТАЦИЮ</a>
 
-           <div class="main__gocatalog">
+           <div class="main__gocatalog animate__animated animate__zoomIn wow" data-wow-delay="2400ms">
             <span>или&nbsp;</span> <a href="#catalog">ПЕРЕЙТИ В КАТАЛОГ</a>
            </div>
         </div>
@@ -73,19 +73,19 @@
            <h2 class="advantages__title">НАШИ ПРЕИМУЩЕСТВА</h2>
 
            <div class="advantages__wrapper">
-               <div class="advantages__item">
+               <div class="advantages__item animate__animated animate__bounceInLeft wow"  data-wow-delay="100ms" >
                    <img src="icons/advantagesicon1.png" alt="">
                    <h5>Делимся опытом</h5>
                    <p>Наши сотрудники всегда готовы поделиться своим опытом,так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</p>
                </div>
 
-               <div class="advantages__item">
+               <div class="advantages__item animate__animated animate__bounceInUp wow"  data-wow-delay="300ms">
                 <img src="icons/advantagesicon2.png" alt="">
                 <h5>Заботимся о здоровье</h5>
                 <p>Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</p>
             </div>
 
-            <div class="advantages__item">
+            <div class="advantages__item animate__animated animate__bounceInRight wow"  data-wow-delay="200ms">
                 <img src="icons/advantagesicon3.png" alt="">
                 <h5>Учим бегать</h5>
                 <p>Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING.</span></p>
@@ -96,14 +96,14 @@
 
    <section class="consultation">
        <div class="container">
-           <h2 class="consultation__title">Получите бесплатную консультацию <br>по подбору пульсометра </h2>
-            <h4 class="consultation__subtitle">
+           <h2 class="consultation__title animate__animated animate__bounceIn wow" data-wow-delay="900ms">Получите бесплатную консультацию <br>по подбору пульсометра </h2>
+            <h4 class="consultation__subtitle animate__animated animate__bounceIn wow" data-wow-delay="900ms">
                 Просто заполните форму заявки<br>и мы перезвоним вам в течении 10 минут
             </h4>
 
-            <form action="#" class="form">
+            <form action="#" class="form animate__animated animate__bounceIn wow" data-wow-delay="900ms">
                 <input type="text" name="username" id="username" placeholder="Ваше имя">
-                <input type="text" name="usernumber" id="usernumber" placeholder="Ваш телефон">
+                <input type="text" name="usernumber" id="usernumber" placeholder="Ваш телефон" value="">
                 <input type="email" name="useremail" id="useremail" placeholder="Ваша E-mail">
 
                 <button class="button button_form">заказать кОНСУЛЬТАЦИЮ</button>
@@ -111,7 +111,7 @@
        </div>
    </section>
 
-   <div class="slider-section">
+   <div class="slider-section animate__animated animate__zoomInDown wow" data-wow-delay="1000ms">
     <div class="slider-section__wrapper">
        <div class="slider-section__item">
         <img src="img/slider_photo_1.jpg" alt="" class="slider-section__image">
@@ -128,15 +128,15 @@
 
    <section class="catalog" id="catalog">
        <div class="container">
-           <h2 class="catalog__title">Каталог пульсометров</h2>
+           <h2 class="catalog__title animate__animated animate__bounceIn wow" data-wow-delay="700ms">Каталог пульсометров</h2>
 
-           <div class="catalog__tabswrapper">
+           <div class="catalog__tabswrapper animate__animated animate__bounceIn wow" data-wow-delay="700ms">
                <div class="catalog__tab catalog__tab_active"><span>Для фитнеса</span></div>
                <div class="catalog__tab"><span>для бега</span></div>
                <div class="catalog__tab"><span>для триатлона</span></div>
            </div>
 
-           <div class="catalog__content catalog__content_active">
+           <div class="catalog__content">
                <div class="catalog-item">
                    <div class="catalog-item__top">
                     
@@ -366,8 +366,8 @@
          </div>
 
            </div>
-           <div class="catalog__content">
-            <div class="catalog-item">
+           <div class="catalog__content catalog__content_active">
+            <div class="catalog-item animate__animated animate__fadeInUp wow" data-wow-delay="900ms">
                 <div class="catalog-item__top">
                  
                      <div class="catalog-item__topwrapper">
@@ -405,7 +405,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item">
+            <div class="catalog-item animate__animated animate__fadeInUp wow" data-wow-delay="1300ms">
                 <div class="catalog-item__top">
                  
                      <div class="catalog-item__topwrapper">
@@ -443,7 +443,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item">
+            <div class="catalog-item animate__animated animate__fadeInUp wow" data-wow-delay="1750ms">
                 <div class="catalog-item__top">
                  
                      <div class="catalog-item__topwrapper">
@@ -525,9 +525,9 @@
 
    <section class="reviews">
        <div class="container">
-           <h2 class="reviews__title">отзывы клиентов</h2>
+           <h2 class="reviews__title animate__animated animate__fadeIn wow" data-wow-delay="1000ms">отзывы клиентов</h2>
 
-           <div class="reviews__item">
+           <div class="reviews__item    animate__animated animate__fadeInUp wow" data-wow-delay="1000ms">
                <div class="reviews__image">
                    <img src="img/review_human1.png" alt="YOUR PHOTO">
                </div>
@@ -543,7 +543,7 @@
                </div>
            </div>
 
-           <div class="reviews__item">
+           <div class="reviews__item    animate__animated animate__fadeInUp wow" data-wow-delay="1400ms">
             <div class="reviews__image">
                 <img src="img/review_human2.png" alt="YOUR PHOTO">
             </div>
@@ -558,9 +558,7 @@
                 </div>
             </div>
         </div>
-
-
-        <div class="reviews__item">
+            <div class="reviews__item   animate__animated animate__fadeInUp wow" data-wow-delay="1650ms">
             <div class="reviews__image">
                 <img src="img/review_human3.png" alt="YOUR PHOTO">
             </div>
@@ -575,6 +573,7 @@
                 </div>
             </div>
         </div>
+        
        </div>
    </section>
 
@@ -609,7 +608,7 @@
            <h5 class="modal-consultation__subtitle">и мы перезвоним вам в течении 10 минут</h5>
            <form action="#" method="POST" class="form">
                <input type="text" name="username" placeholder="Ваше имя">
-               <input type="text" name="usernumber" placeholder="Ваш телефон">
+               <input type="text" name="usernumber" placeholder="Ваш телефон" value="">
                <input type="text" name="useremail" placeholder="Ваш E-mail">
                <button class="button button_form">заказать кОНСУЛЬТАЦИЮ</button>
            </form>
@@ -625,7 +624,7 @@
         <h5 class="modal-consultation__subtitle">Пульсометр Polar FT1</h5>
         <form action="#" method="POST" class="form">
             <input type="text" name="username" placeholder="Ваше имя">
-            <input type="text" name="usernumber" placeholder="Ваш телефон">
+            <input type="text" name="usernumber" placeholder="Ваш телефон" value="">
             <input type="text" name="useremail" placeholder="Ваш E-mail">
             <button class="button button_form">Купить</button>
         </form>
@@ -645,10 +644,16 @@
     </div>
 </div>
 
+<a class="arrow-up" href="#main">
+    <img src="icons/up-arrow.svg" alt="">
+</a>
+
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
